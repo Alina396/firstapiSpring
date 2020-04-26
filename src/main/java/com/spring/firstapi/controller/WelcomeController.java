@@ -12,8 +12,8 @@ public class WelcomeController {
     @GetMapping
     public String welcome()
     {
-        return "Api can be accessed using the following URls:/n " +
-                "/n" + "Get all courses /course" +"/n" + "Get course by ID course/{id}" + "/n"
-                + "Add Course /course" + "Update Course course/{id}" + "/n" + "Delete Course course/{id}";
+        return "Api can be accessed using the following URls: " +
+                "\n" + "Get all courses /course" +"\n" + "Get course by ID course/{id}" + "\n"
+                + "Add Course /course" + "\n"+"Update Course course/{id}" + "\n" + "Delete Course course/{id}";
     }
 }
